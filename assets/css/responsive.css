@@ -1,0 +1,37 @@
+/* PC */
+@media (min-width: 992px) {
+}
+
+/* Tablet t& mobile */
+@media (max-width: 991.98px) {
+  /* ẩn thanh navbar trên tablet và mobile */
+  .navbar {
+    display: none;
+  }
+  /* chuyển logo vào giữa */
+  .header-top {
+    position: relative;
+  }
+  .header-top .shine_smile {
+    translate: -50% -50%;
+    position: absolute;
+    left: 50%;
+  }
+
+  /* định vị menu */
+  .menu-header__icon {
+    position: absolute;
+    top: 38px;
+    left: 26px;
+    width: 24px;
+    color: #fff;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* mobile */
+@media (max-width: 767.98px) {
+}
